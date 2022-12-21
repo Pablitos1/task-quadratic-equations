@@ -7,7 +7,7 @@ int main()
     std::cin >> a >> b >> c;
     if (a < 0)
     {
-        std::cout << "Not a quadratic equation!" << std::endl; // не квадратное уравнение!
+        std::cout << "Not a quadratic equation!" << std::endl; 
     }
     else
     {
@@ -20,7 +20,7 @@ int main()
         }
         else
         {
-            std::cout << "Complex scenario is not supported!" << std::endl; //Сложный сценарий не поддерживается!
+            std::cout << "Complex scenario is not supported!" << std::endl; 
         }
     }
     return 0;
